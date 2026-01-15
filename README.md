@@ -1,39 +1,45 @@
-# David Salomón's preferred fonts, icons and themes.
+# David Andrés' preferred fonts, icons, and themes
 
-## The Repository
+## 📁 The Repository
 
-This repository is where I store the fonts, icons and themes that I use on my GNU/Linux system. I have compressed the files in a `.tar.xz` archive in order to not ocuppy a lot of space and thus make the download of these things a lot faster.
+This repository contains the fonts, icons, and themes I use on my GNU/Linux system. Everything is packed into a `.tar.xz` archive to keep the repository lightweight and make downloads faster.
 
-## How to Install This Repository?
+## 🚀 How to install
 
-I have an automated script that clones my main .files repo and applies some other changes to the system. Unfortunately it only works for Fedora, some of the changes include a better DNF config and aliases, the automatic installation of some window managers and the software selection I use... among other things.
+I have an automated script that clones my main [.files repo](https://github.com/david35mm/.files) and applies a few additional system tweaks. At the moment, it works on Fedora and **vanilla** Arch Linux. Some of the changes include improved DNF/Pacman configuration and aliases, automatic installation of a few window managers, and the software selection I use, among other things.
 
-To install the fonts, themes and icons on your system run my script and select the `4` option, that will prompt you with the `Install window managers and some utilities` menu. Once there type `5` on your keyboard and everything should be installed automatically.
+To install the fonts, themes, and icons:
 
-Here is the link to the script:
+1. Run the script below
+2. Select option `4`
+3. Choose `Install window managers and some utilities`
+4. Type `5` to install everything automatically
+
+Here is the script:
 
 ```sh
-bash <(curl -fsSL raw.githubusercontent.com/david35mm/.files/main/DavidsFedoraTool.sh)
+curl -fsSL https://raw.githubusercontent.com/david35mm/up35mm/main/up35mm.sh | sh
 ```
 
-## Who is David Salomón?
+## 👋 Who is David Andrés?
 
-I am an Electronic Engineering student, passionate about computers and everything related to it. I was born in Bogotá, the capital city of the South American country Colombia. My nickname in almost all of the social media I am registered on is david.35mm. Why? In the last few years, one of my main hobbies has been photography, I even started a small [YouTube channel](https://www.youtube.com/channel/UC-8MDD0AHj0-ZUPolunq6MQ). There I shared some tips and explain some concepts about photography, you are free to check out my videos but... as a native Spanish speaker all of my videos are going to be in that language. The 35mm on my nickname is because of the measurement of the photographic film used in the past. As a photography enthusiast I also have my own [portfolio](https://spark.adobe.com/page/yADDtrHvBow4p/), as you can see I love portraits and thus I base almost all of my work on this type of art.
+I started out studying Electronic Engineering, but I am now doing Computer Science. I am especially interested in free and open-source software. I was born in [Bogotá](https://en.wikipedia.org/wiki/Bogot%C3%A1), the capital city of [Colombia](https://en.wikipedia.org/wiki/Colombia). Since starting my undergraduate degree at the [National University of Colombia](https://en.wikipedia.org/wiki/National_University_of_Colombia), I have been living in [Manizales](https://en.wikipedia.org/wiki/Manizales).
 
-### Here is a quick access to my active social media
+Photography has been one of my main hobbies over the past few years, and I also run a [small YouTube channel](https://www.youtube.com/channel/UC-8MDD0AHj0-ZUPolunq6MQ) where I share tips and explain photography concepts. All the videos are in Spanish.
+
+The “35mm” in my nickname comes from the classic photographic film format. I also have [my own portfolio](https://david35mm.com/tags/carrete/) — I mainly focus on portrait photography.
+
+As for GNU/Linux, I have been using Fedora (stable branch) for the past few years, although I am still tempted to give Rawhide a go. Throughout most of 2021, I used Artix Linux (with s6 init). Feel free to DM me on [Instagram](https://www.instagram.com/david35mm.co) if you would like to chat (or practise your Spanish).
+
+### 🔗 Quick links
 
 - [GitHub Profile](https://github.com/david35mm)
+- [Instagram Page](https://www.instagram.com/david35mm.co)
+- [Personal Portfolio](https://david35mm.com/tags/carrete/)
+- [YouTube Channel](https://www.youtube.com/@david.35mm51)
 
-- [Instagram Page](https://www.instagram.com/david.35mm)
+## 🍺 Buy me a beer
 
-- [Personal Portfolio](https://spark.adobe.com/page/yADDtrHvBow4p/)
+If you would like to support my work, you can do so via my [PayPal link](https://paypal.me/david35mm). Any donation is genuinely appreciated.
 
-- [YouTube Channel](https://www.youtube.com/channel/UC-8MDD0AHj0-ZUPolunq6MQ)
-
-## Do you want to buy me a doughnut?
-
-I have a [PayPal link](https://paypal.me/david35mm) where you can send me your donation. If you are using the [Brave Web Browser](https://brave.com/gek146) (If you don't then you should try it. It's an open source, privacy oriented browser) you could add me as a verified content creator to your monthly donation fee. If you have not installed Brave here is my [referral link](https://brave.com/gek146), just click download button and then install it, you doing that is going to help me a lot!
-
-## A one last thing
-
-If you are wondering what GNU/Linux distribution I use, it is Fedora. Want to talk with me (or even practise your Spanish)? DM me over on [Instagram](https://www.instagram.com/david.35mm).
+If you use the Brave browser, you can also support me through Brave Rewards by adding me as a verified content creator.
